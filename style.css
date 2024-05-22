@@ -38,6 +38,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  border:none;
 }
 .brand-shop {
   background: #000000ba;
