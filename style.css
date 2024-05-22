@@ -38,7 +38,6 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 .brand-shop {
   background: #000000ba;
