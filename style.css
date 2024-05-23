@@ -37,7 +37,6 @@ body {
   width: 100%;
   align-items: center;
   display: flex;
-  border: none;
   flex-direction: column;
 }
 .brand-shop {
@@ -101,7 +100,7 @@ body {
   justify-content: space-between;
 }
 .block {
-  width: 160px;
+  width: 190px;
   border-radius: 10px;
   background-color: #fffffff2;
   height: 180px;
@@ -110,34 +109,14 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  transition: all 0.6s;
-  overflow: hidden;
-}
-.block:active {
-  background-color: rgba(0, 0, 0, 0.733);
-}
-.block:hover {
-  background-color: rgba(0, 0, 0, 0.533);
-  .model {
-    color: #fff;
-  }
-  .img {
-    transform: scale(1.1);
-  }
-}
-.block {
-  color: #fff;
 }
 .img {
   width: 110px;
-  transition: 0.6s;
 }
 .img > img {
   width: 100%;
 }
-
 .model {
-  transition: all 0.5s;
   font-size: 1.2rem;
   color: gray;
   font-weight: bold;
