@@ -188,3 +188,26 @@ body {
 .footer > h3 {
   font-size: 2.5rem;
 }
+@media screen and (max-width: 450px) {
+  .phone-samsung {
+    grid-template-columns: auto auto;
+    gap: 18px;
+    justify-content: center;
+  }
+  .wrapper {
+    padding: 0;
+  }
+  .block {
+    width: 140px;
+    height: 140px;
+  }
+  .describes-samsung,
+  .describes {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .footer {
+    width: inherit;
+    justify-content: center;
+  }
+}
